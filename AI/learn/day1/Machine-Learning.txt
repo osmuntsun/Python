@@ -1,0 +1,7 @@
+Machine Learning 概念
+Machine Learning 演算法(Algorithms) 不只有 Neural Network，還包括 K-Means、Support Vector Machines(SVM)、Decision Tree、... 等等，基本上，都是希望透過資料分類(Classification)或分群(Clustering) 的方式，轉換為規則或知識，一般進行的步驟如下：
+
+訓練：首先將已知的歷史資料，依資料特徵(譬如性別、年齡)，將樣本作分類(譬如男人、女人、小孩)，這就是所謂的訓練(Training)。
+建立模型(Model)：訓練之後，我們就會得到一個模型(簡略的講，就是公式)，推算未知的資料是哪一類，例如性別是男，年齡大於18歲，模型就推斷他是男人；反之，年齡小於18歲，不論性別，模型就推斷他是小孩。
+評估(Evaluation)：隨機抓一部分的已知資料，測試模型的準確率(或其他評估指標，如 precision and recall)，確定模型是堪用的，這就是『驗證』(Validation)，有了評估指標，我們就可以跟老闆或客戶，拍胸脯、打包票，不準就切腹自盡(千萬不要喔)。
+預測(Prediction)：有了以上模型後，一個未知的人進來後，我們就可以依據性別及年齡推斷，他/她是男人、女人或小孩? 但是，注意! Machine Learning 不是以程式撰寫明確的規則(If ... Then ...Else)，而是『以已知的資料推斷未知的資料』，只要，不斷餵資料，機器就慢慢的變聰明了。
