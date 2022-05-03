@@ -1,0 +1,13 @@
+Supervised Learning (監督式學習)
+	Deep Learning (深度學習)
+		
+	Support Vector Machine (SVM - 支援向量機)
+	Decisiontree (決策樹)
+
+Semi-Supervised Learning (半監督式學習)
+
+Transfer Learning (轉移學習)
+
+Unsupervised Learning (非監督式學習)
+
+Structured Learning (結構化學習)
